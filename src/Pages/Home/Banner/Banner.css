@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Shalimar&family=Yuji+Syuku&display=swap');
+
+
+.content{
+  /* background: linear-gradient(to top, #000000, #434343); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 100px;
+    padding-bottom: 260px;
+    background-color: white;
+}
+.banner {
+  font-family: "IM Fell English SC", serif;
+  font-weight: 700;
+  
+}
+
+.heading-style{
+  font-family: 'Yuji Syuku', serif;
+  text-transform:uppercase;
+  color:#ece9e6;
+  margin-top: 40px;
+ 
+}
+
+.banner h1{
+  font-family: 'Yuji Syuku', serif;
+  text-transform:uppercase;
+  color:Black;
+}
+.banner h4{
+    margin-top: 20px;
+  font-family:  "IM Fell English SC", serif;
+  color:Black;
+  font-size:20px;
+}
+.banner h3{
+  font-family: 'Yuji Syuku', serif;
+  text-transform:uppercase;
+  color:#ece9e6;
+}
+.banner h5{
+  font-family: 'Yuji Syuku', serif;
+  text-transform:uppercase;
+  color: #23e0cd;
+  font-weight: 700;
+  font-size:20px;
+}
+.banner span{
+  
+  color:#f3a374;
+  font-size: 45px;
+  font-weight:600;
+}
+.btn-submit{
+  border:none;
+  background: linear-gradient(to right, #457fca, #5691c8);
+  color:white;
+  font-family: 'Yuji Syuku', serif;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.btn-submit:hover{
+  border:none;
+  background: white;
+  color:Black;
+  font-family: 'Yuji Syuku', serif;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.myself{
+  width:300px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .myself{
+        margin-top:30px;
+        height:auto;
+        width:250px;
+        text-align:center;
+    }
+    .content{
+      padding-top:0px;
+      padding-bottom:0px;
+    }
+}
